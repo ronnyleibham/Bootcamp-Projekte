@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CV Ronny Leibham</title>
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
   </head>
-  <body class="mx-3 max-w-screen-xl">
+  <body class="mx-auto max-w-screen-xl">
     <h1 class="text-7xl mb-5 mt-10 font-medium">Ronny Leibham</h1>
     <div>
       <a
@@ -28,7 +28,7 @@
     <section class="my-16">
       <div>
         <p class="mb-8 text-2xl font-light tracking-wider">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, eveniet?
+          Lorem da ipsum dolor sit amet consectetur adipisicing elit. Rem, eveniet?
           Ullam veritatis, natus a aperiam ab adipisci incidunt laboriosam
           aliquid molestias deserunt tenetur quod rem, maxime repellat! Iusto,
           laudantium ducimus.
@@ -90,22 +90,41 @@
         <h2 class="text-white bg-black text-3xl pl-5 pr-5 pt-1 pb-2 mt-20 mb-9">
           Socials
         </h2>
-        <ul>
-          <li>
-            <a href="#"><img src="images/linkedin.png" alt="" />LinkedIn</a>
-          </li>
-          <li>
-            <a href="#"><img src="images/xing.png" alt="" />Xing</a>
-          </li>
-          <li>
-            <a href="#"><img src="images/github.png" alt="" />Github</a>
-          </li>
-        </ul>
+        <div
+          class="
+            grid grid-cols-3
+            flex
+            items-center
+            justify-items-center
+            text-center
+          "
+        >
+          <a href="#"
+            ><div class="">
+              <img class="w-24" src="images/linkedin.png" alt="" />
+              <p class="mt-2">LinkedIn</p>
+            </div></a
+          >
+          <a href="#"
+            ><div class="">
+              <img class="w-24" src="images/xing.png" alt="" />
+              <p class="mt-2">Xing</p>
+            </div></a
+          >
+          <a href="#"
+            ><div class="">
+              <img class="w-24" src="images/github.png" alt="" />
+              <p class="mt-2">Github</p>
+            </div></a
+          >
+        </div>
       </div>
     </section>
     <section id="biographie">
-      <h2>Motivation</h2>
-      <p>
+      <h2 class="text-white bg-black text-3xl pl-5 pr-5 pt-1 pb-2 mt-20 mb-9">
+        Motivation
+      </h2>
+      <p class="mb-8 text-2xl font-light tracking-wider">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia
         nesciunt quidem iusto odio dignissimos nobis consectetur dolores
         aspernatur magnam enim repudiandae dolorem, molestiae provident quasi ut
@@ -114,7 +133,7 @@
         neque reprehenderit fugiat, voluptatem optio totam architecto veniam
         odit obcaecati eveniet iste aperiam alias?
       </p>
-      <p>
+      <p class="mb-8 text-2xl font-light tracking-wider">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia
         nesciunt quidem iusto odio dignissimos nobis consectetur dolores
         aspernatur magnam enim repudiandae dolorem, molestiae provident quasi ut
@@ -123,34 +142,34 @@
         neque reprehenderit fugiat, voluptatem optio totam architecto veniam
         odit obcaecati eveniet iste aperiam alias?
       </p>
-      <h2>Beruflicher Werdegang</h2>
-      <table>
-        <table>
-          <tr>
-            <td>2008</td>
-            <td>Test</td>
-          </tr>
-          <tr>
-            <td>2009</td>
-            <td>Test</td>
-          </tr>
-          <tr>
-            <td>2008</td>
-            <td>Test</td>
-          </tr>
-          <tr>
-            <td>2009</td>
-            <td>Test</td>
-          </tr>
-          <tr>
-            <td>2008</td>
-            <td>Test</td>
-          </tr>
-          <tr>
-            <td>2009</td>
-            <td>Test</td>
-          </tr>
-        </table>
+      <h2 class="text-white bg-black text-3xl pl-5 pr-5 pt-1 pb-2 mt-20 mb-9">
+        Beruflicher Werdegang
+      </h2>
+      <table class="table-auto text-2xl font-light tracking-wider ml-10">
+        <tr class="flex space-x-10"">
+          <td class="font-semibold">2008</td>
+          <td>Test</td>
+        </tr>
+        <tr class="flex space-x-10">
+          <td class="font-semibold">2009</td>
+          <td>Test</td>
+        </tr>
+        <tr class="flex space-x-10">
+          <td class="font-semibold">2008</td>
+          <td>Test</td>
+        </tr>
+        <tr class="flex space-x-10">
+          <td class="font-semibold">2009</td>
+          <td>Test</td>
+        </tr>
+        <tr class="flex space-x-10">
+          <td class="font-semibold">2008</td>
+          <td>Test</td>
+        </tr>
+        <tr class="flex space-x-10">
+          <td class="font-semibold">2009</td>
+          <td>Test</td>
+        </tr>
       </table>
     </section>
   </body>
